@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCBooks</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/lightslider.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./assets/js/lightslider.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header--fixed hide-on-mobile-tablet">
+            <div class="row">
+                <!-- <div class="header__inner">
+                    <div class="logo">
+                        <img src="./assets/img/logo.png" alt="Logo">
+                    </div>
+                    <ul class="header__nav">
+                        <a class="nav__item active" href="#">
+                            Trang chủ
+                        </a>
+                        <a class="nav__item" href="#">
+                            Sách ngoại ngữ
+                        </a>
+                        <a class="nav__item" href="#">
+                            Tin tức
+                        </a>
+                        <a class="nav__item" href="#">
+                            Tác giả
+                        </a>
+                        <a class="nav__item" href="#">
+                            Về MCBooks
+                        </a>
+                        <a class="nav__item" href="#">
+                            Danh sách đại lý
+                        </a>
+                        <a class="nav__item" href="#">
+                            Profile
+                        </a>
+                    </ul>
+                </div> -->
+                <div class="header__inner hide-on-mobile-tablet">
+                    <div class="logo">
+                        <img src="./assets/img/logo.png" alt="Logo">
+                    </div>
+                    <ul class="header__nav">
+                        <div class="nav__item active">
+                            <p>
+                                Trang chủ
+                            </p>
+                        </div>
+                        <div class="nav__item  nav__item--2">
+                            <p>
+                                Sách ngoại ngữ
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                            <ul class="sub--menu sub--menu__2">
+                                <li>
+                                    Sách tiếng Anh
+                                </li>
+                                <li>
+                                    Sách tiếng Hàn
+                                </li>
+                                <li>
+                                    Sách tiếng Nhật
+                                </li>
+                                <li>
+                                    Sách tiếng Trung
+                                </li>
+                                <li>
+                                    Tiếng Anh Trẻ Em
+                                </li>
+                                <li>
+                                    Sách từ điển
+                                </li>
+                                <li>
+                                    Sách tiếng Việt
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__item  nav__item--3">
+                            <p>
+                                Tin tức
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                            <ul class="sub--menu sub--menu__3">
+                                <li>
+                                    Kiến thức tiêng Anh
+                                </li>
+                                <li>
+                                    Báo chí
+                                </li>
+                                <li>
+                                    Sự kiện - Hội thảo
+                                </li>
+                                <li>
+                                    Người nổi tiếng
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__item">
+                            <p>
+                                Tác giả
+                            </p>
+                        </div>
+                        <div class="nav__item nav__item--5">
+                            <p>
+                                Về MCBooks
+                                <i class="fas fa-angle-down"></i>
+                            </p>
+                            <ul class="sub--menu sub--menu__5">
+                                <li>
+                                    Lịch sử hình thành MCBooks
+                                </li>
+                                <li>
+                                    Tầm nhìn và sứ mệnh MCBooks
+                                </li>
+                                <li>
+                                    Thành tựu MCBooks
+                                </li>
+                                <li>
+                                    Văn hóa MCBooks
+                                </li>
+                                <li>
+                                    Hoạt động xã hội
+                                </li>
+                                <li>
+                                    Tuyển dụng
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__item">
+                            <p>
+                                Danh sách đại lý
+                            </p>
+                        </div>
+                        <div class="nav__item">
+                            <p>
+                                Profile
+                            </p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="header__top  hide-on-mobile-tablet">
+                <div class="header__top--phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>0985657724</span>
+                </div>
+                <div class="header__top--panel">
+                    <div class="search">
+                        <i class="fas fa-search"></i>
+                        <input type="text" name="" id="" placeholder="Bạn muốn tìm sách gì?">
+                    </div>
+                    <a href="#" class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a href="#" class="account">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="header__inner hide-on-mobile-tablet">
+                <div class="logo">
+                    <img src="./assets/img/logo.png" alt="Logo">
+                </div>
+                <ul class="header__nav">
+                    <div class="nav__item active">
+                        <p>
+                            Trang chủ
+                        </p>
+                    </div>
+                    <div class="nav__item  nav__item--2">
+                        <p>
+                            Sách ngoại ngữ
+                            <i class="fas fa-angle-down"></i>
+                        </p>
+                        <ul class="sub--menu sub--menu__2">
+                            <li>
+                                Sách tiếng Anh
+                            </li>
+                            <li>
+                                Sách tiếng Hàn
+                            </li>
+                            <li>
+                                Sách tiếng Nhật
+                            </li>
+                            <li>
+                                Sách tiếng Trung
+                            </li>
+                            <li>
+                                Tiếng Anh Trẻ Em
+                            </li>
+                            <li>
+                                Sách từ điển
+                            </li>
+                            <li>
+                                Sách tiếng Việt
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav__item  nav__item--3">
+                        <p>
+                            Tin tức
+                            <i class="fas fa-angle-down"></i>
+                        </p>
+                        <ul class="sub--menu sub--menu__3">
+                            <li>
+                                Kiến thức tiêng Anh
+                            </li>
+                            <li>
+                                Báo chí
+                            </li>
+                            <li>
+                                Sự kiện - Hội thảo
+                            </li>
+                            <li>
+                                Người nổi tiếng
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav__item">
+                        <p>
+                            Tác giả
+                        </p>
+                    </div>
+                    <div class="nav__item nav__item--5">
+                        <p>
+                            Về MCBooks
+                            <i class="fas fa-angle-down"></i>
+                        </p>
+                        <ul class="sub--menu sub--menu__5">
+                            <li>
+                                Lịch sử hình thành MCBooks
+                            </li>
+                            <li>
+                                Tầm nhìn và sứ mệnh MCBooks
+                            </li>
+                            <li>
+                                Thành tựu MCBooks
+                            </li>
+                            <li>
+                                Văn hóa MCBooks
+                            </li>
+                            <li>
+                                Hoạt động xã hội
+                            </li>
+                            <li>
+                                Tuyển dụng
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav__item">
+                        <p>
+                            Danh sách đại lý
+                        </p>
+                    </div>
+                    <div class="nav__item">
+                        <p>
+                            Profile
+                        </p>
+                    </div>
+                </ul>
+            </div>
+            <div class="header--mobile--tablet">
+                <i class="fas fa-list"></i>
+            </div>
+            <div class="carousel">
+                <div class="carousel__detail">
+                    <img src="./assets/img/carousel-img-1.png" alt="" class="carousel__img">
+                    <img src="./assets/img/carousel-img-2.png" alt="" class="carousel__img">
+                    <img src="./assets/img/carousel-img-3.png" alt="" class="carousel__img">
+                    <img src="./assets/img/carousel-img-4.png" alt="" class="carousel__img">
+                    <img src="./assets/img/carousel-img-5.png" alt="" class="carousel__img">
+                    <img src="./assets/img/carousel-img-1.png" alt="" class="carousel__img-show">
+                </div>
+                <div class="carousel__prev">
+                    <i class="fas fa-angle-left"></i>
+                </div>
+                <div class="carousel__next">
+                    <i class="fas fa-angle-right"></i>
+                </div>
+                <div class="carousel__btn">
+                    <input type="radio" name="carousel-radio" id="carousel-radio1" class="carousel-radio" checked>
+                    <input type="radio" name="carousel-radio" id="carousel-radio2" class="carousel-radio">
+                    <input type="radio" name="carousel-radio" id="carousel-radio3" class="carousel-radio">
+                    <input type="radio" name="carousel-radio" id="carousel-radio4" class="carousel-radio">
+                    <input type="radio" name="carousel-radio" id="carousel-radio5" class="carousel-radio">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="about-us">
+            <div class="row">
+                <div class="company-detail">
+                    <p>Công ty sách MCBooks</p>
+                    <p>12 NĂM XUẤT BẢN VÀ PHÁT HÀNH SÁCH NGOẠI NGỮ</p>
+                    <p style="font-size: 20px;">Chuyên xuất bản, liên kết xuất bản với các tác giả nổi tiếng trong và
+                        ngoài nước
+                        để phát hành các dòng sách học ngoại ngữ Anh, Trung, Nhật, Hàn, sách học ngoại ngữ Trẻ em,… dẫn
+                        đầu thị trường Việt Nam</p>
+                </div>
+                <div class="service">
+                    <div class="service__item">
+                        <div class="service__item--img">
+                            <img src="./assets/img/service-1.png" alt="">
+                        </div>
+                        <p>MC Platform</p>
+                        <span>Luyện nghe trực tuyến ngay trên điện thoại và máy tính.</span>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__item--img">
+                            <img src="./assets/img/service-2.png" alt="">
+                        </div>
+                        <p>Vận chuyển</p>
+                        <span>Miễn phí vận chuyển cho đơn hàng trên 300,000 VNĐ</span>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__item--img">
+                            <img src="./assets/img/service-3.png" alt="">
+                        </div>
+                        <p>Đổi trả</p>
+                        <span>Miễn phí đổi trả trong vòng 10 ngày</span>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__item--img">
+                            <img src="./assets/img/service-4.png" alt="">
+                        </div>
+                        <p>Thanh toán</p>
+                        <span>Ship COD toàn quốc. Thanh toán khi nhận hàng.</span>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__item--img">
+                            <img src="./assets/img/service-5.png" alt="">
+                        </div>
+                        <p>Hỗ trợ 24/7</p>
+                        <span>Hotline liên hệ
+                            0986 066 630</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="row categories__content">
+                <div class="categories__title">
+                    <p>DANH MỤC SẢN PHẨM</p>
+                </div>
+                <div class="categories__detail">
+                    <a class="category" href="#">
+                        <div class="category__img">
+                            <img src="./assets/img/category-1.png" alt="">
+                        </div>
+                        <div class="category__name">
+                            <p>SÁCH HỌC TIẾNG ANH</p>
+                        </div>
+                        <div class="category__quantity">
+                            <p>160 SẢN PHẨM</p>
+                        </div>
+                    </a>
+                    <a class="category" href="#">
+                        <div class="category__img">
+                            <img src="./assets/img/category-2.jpg" alt="">
+                        </div>
+                        <div class="category__name">
+                            <p>SÁCH HỌC TIẾNG NHẬT</p>
+                        </div>
+                        <div class="category__quantity">
+                            <p>55 SẢN PHẨM</p>
+                        </div>
+                    </a>
+                    <a class="category" href="#">
+                        <div class="category__img">
+                            <img src="./assets/img/category-3.jpg" alt="">
+                        </div>
+                        <div class="category__name">
+                            <p>SÁCH HỌC TIẾNG HÀN</p>
+                        </div>
+                        <div class="category__quantity">
+                            <p>59 SẢN PHẨM</p>
+                        </div>
+                    </a>
+                    <a class="category" href="#">
+                        <div class="category__img">
+                            <img src="./assets/img/category-4.jpg" alt="">
+                        </div>
+                        <div class="category__name">
+                            <p>SÁCH HỌC TIẾNG TRUNG</p>
+                        </div>
+                        <div class="category__quantity">
+                            <p>64 SẢN PHẨM</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="popular">
+            <div class="row popular__detail">
+                <div class="popular__title">
+                    <p>SẢN PHẨM NỔI BẬT</p>
+                </div>
+                <div class="popular__content">
+                    <a href="#" class="popular__item">
+                        <div class="popular__item--img">
+                            <div class="popular__item--cover blue">
+                                <div class="item--cover__title">
+                                    SACH GI DAY
+                                </div>
+                                <div class="item--cover__btn">
+                                    <button>Xem ngay</button>
+                                </div>
+                            </div>
+                            <img src="./assets/img/popular-1.jpg" alt="">
+                        </div>
+                        <div class="popular__item--detail blue">
+                            <div class="popular__item--name">
+                                <p>MIND MAP ENGLISH GRAMMAR – NGỮ PHÁP TIẾNG ANH BẰNG SƠ ĐỒ TƯ DUY MIND MAP ENGLISH
+                                    GRAMMAR – NGỮ PHÁP TIẾNG ANH BẰNG SƠ ĐỒ TƯ DUY MIND MAP ENGLISH GRAMMAR – NGỮ PHÁP
+                                    TIẾNG ANH BẰNG SƠ ĐỒ TƯ DUY MIND MAP ENGLISH GRAMMAR – NGỮ PHÁP TIẾNG ANH BẰNG SƠ ĐỒ
+                                    TƯ DUY</p>
+                            </div>
+                            <div class="popular__item--price">
+                                <p>190.000₫</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="popular__item">
+                        <div class="popular__item--img">
+                            <div class="popular__item--cover orange">
+                                <div class="item--cover__title">
+                                    SACH GI DAY
+                                </div>
+                                <div class="item--cover__btn">
+                                    <button>Xem ngay</button>
+                                </div>
+                            </div>
+                            <img src="./assets/img/popular-2.png" alt="">
+                        </div>
+                        <div class="popular__item--detail orange">
+                            <div class="popular__item--name">
+                                <p>CHINH PHỤC TIẾNG NHẬT TỪ CON SỐ 0 (TẬP 1)</p>
+                            </div>
+                            <div class="popular__item--price">
+                                <p>150.000₫</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="popular__item">
+                        <div class="popular__item--img">
+                            <div class="popular__item--cover green">
+                                <div class="item--cover__title">
+                                    SACH GI DAY
+                                </div>
+                                <div class="item--cover__btn">
+                                    <button>Xem ngay</button>
+                                </div>
+                            </div>
+                            <img src="./assets/img/popular-3.png" alt="">
+                        </div>
+                        <div class="popular__item--detail green">
+                            <div class="popular__item--name">
+                                <p>TỰ HỌC 2000 TỪ VỰNG TIẾNG ANH THEO CHỦ ĐỀ</p>
+                            </div>
+                            <div class="popular__item--price">
+                                <p>65.000₫</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="popular__item">
+                        <div class="popular__item--img">
+                            <div class="popular__item--cover pri">
+                                <div class="item--cover__title">
+                                    SACH GI DAY
+                                </div>
+                                <div class="item--cover__btn">
+                                    <button>Xem ngay</button>
+                                </div>
+                            </div>
+                            <img src="./assets/img/popular-4.jpg" alt="">
+                        </div>
+                        <div class="popular__item--detail pri">
+                            <div class="popular__item--name">
+                                <p>LUYỆN SIÊU TRÍ NHỚ TỪ VỰNG TIẾNG ANHY</p>
+                            </div>
+                            <div class="popular__item--price">
+                                <p>180.000₫</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="popular__item">
+                        <div class="popular__item--img">
+                            <div class="popular__item--cover blue">
+                                <div class="item--cover__title">
+                                    SACH GI DAY
+                                </div>
+                                <div class="item--cover__btn">
+                                    <button>Xem ngay</button>
+                                </div>
+                            </div>
+                            <img src="./assets/img/popular-5.png" alt="">
+                        </div>
+                        <div class="popular__item--detail blue">
+                            <div class="popular__item--name">
+                                <p>TIẾNG HÀN TỔNG HỢP DÀNH CHO NGƯỜI VIỆT NAM – SÁCH</p>
+                            </div>
+                            <div class="popular__item--price">
+                                <p>70.000₫</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="popular__item">
+                        <div class="popular__item--img">
+                            <div class="popular__item--cover orange">
+                                <div class="item--cover__title">
+                                    SACH GI DAY
+                                </div>
+                                <div class="item--cover__btn">
+                                    <button>Xem ngay</button>
+                                </div>
+                            </div>
+                            <img src="./assets/img/popular-6.png" alt="">
+                        </div>
+                        <div class="popular__item--detail orange">
+                            <div class="popular__item--name">
+                                <p>BỘ SÁCH LUYỆN THI IELTS MIKE 5 CUỐN</p>
+                            </div>
+                            <div class="popular__item--price">
+                                <p>602.000₫</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="popular__item">
+                        <div class="popular__item--img">
+                            <div class="popular__item--cover green">
+                                <div class="item--cover__title">
+                                    SACH GI DAY
+                                </div>
+                                <div class="item--cover__btn">
+                                    <button>Xem ngay</button>
+                                </div>
+                            </div>
+                            <img src="./assets/img/popular-7.jpg" alt="">
+                        </div>
+                        <div class="popular__item--detail green">
+                            <div class="popular__item--name">
+                                <p>GIÁO TRÌNH HÁN NGỮ 3 – TẬP 2 – QUYỂN THƯỢNG</p>
+                            </div>
+                            <div class="popular__item--price">
+                                <p>95.000₫</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="popular__item">
+                        <div class="popular__item--img">
+                            <div class="popular__item--cover pri">
+                                <div class="item--cover__title">
+                                    SACH GI DAY
+                                </div>
+                                <div class="item--cover__btn">
+                                    <button>Xem ngay</button>
+                                </div>
+                            </div>
+                            <img src="./assets/img/popular-8.jpg" alt="">
+                        </div>
+                        <div class="popular__item--detail pri">
+                            <div class="popular__item--name">
+                                <p>GIÁO TRÌNH HÁN NGỮ 2 – TẬP 1 – QUYỂN HẠ</p>
+                            </div>
+                            <div class="popular__item--price">
+                                <p>115.000₫</p>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <div class="row popular--carousel">
+                        <ul id="lightSlider">
+                            <li>
+                                <a href="#" class="popular__item incarousel">
+                                    <div class="popular__item--img">
+                                        <div class="popular__item--cover blue">
+                                            <div class="item--cover__title">
+                                                SACH GI DAY
+                                            </div>
+                                            <div class="item--cover__btn">
+                                                <button>Xem ngay</button>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/popular-1.jpg" alt="">
+                                    </div>
+                                    <div class="popular__item--detail blue">
+                                        <div class="popular__item--name">
+                                            <p>MIND MAP ENGLISH GRAMMAR – NGỮ PHÁP TIẾNG ANH BẰNG SƠ ĐỒ TƯ DUY MIND MAP
+                                                ENGLISH
+                                                GRAMMAR – NGỮ PHÁP TIẾNG ANH BẰNG SƠ ĐỒ TƯ DUY MIND MAP ENGLISH GRAMMAR
+                                                –
+                                                NGỮ PHÁP
+                                                TIẾNG ANH BẰNG SƠ ĐỒ TƯ DUY MIND MAP ENGLISH GRAMMAR – NGỮ PHÁP TIẾNG
+                                                ANH
+                                                BẰNG SƠ ĐỒ
+                                                TƯ DUY</p>
+                                        </div>
+                                        <div class="popular__item--price">
+                                            <p>190.000₫</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="popular__item incarousel">
+                                    <div class="popular__item--img">
+                                        <div class="popular__item--cover orange">
+                                            <div class="item--cover__title">
+                                                SACH GI DAY
+                                            </div>
+                                            <div class="item--cover__btn">
+                                                <button>Xem ngay</button>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/popular-2.png" alt="">
+                                    </div>
+                                    <div class="popular__item--detail orange">
+                                        <div class="popular__item--name">
+                                            <p>CHINH PHỤC TIẾNG NHẬT TỪ CON SỐ 0 (TẬP 1)</p>
+                                        </div>
+                                        <div class="popular__item--price">
+                                            <p>150.000₫</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="popular__item incarousel">
+                                    <div class="popular__item--img">
+                                        <div class="popular__item--cover green">
+                                            <div class="item--cover__title">
+                                                SACH GI DAY
+                                            </div>
+                                            <div class="item--cover__btn">
+                                                <button>Xem ngay</button>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/popular-3.png" alt="">
+                                    </div>
+                                    <div class="popular__item--detail green">
+                                        <div class="popular__item--name">
+                                            <p>TỰ HỌC 2000 TỪ VỰNG TIẾNG ANH THEO CHỦ ĐỀ</p>
+                                        </div>
+                                        <div class="popular__item--price">
+                                            <p>65.000₫</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="popular__item incarousel">
+                                    <div class="popular__item--img">
+                                        <div class="popular__item--cover pri">
+                                            <div class="item--cover__title">
+                                                SACH GI DAY
+                                            </div>
+                                            <div class="item--cover__btn">
+                                                <button>Xem ngay</button>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/popular-4.jpg" alt="">
+                                    </div>
+                                    <div class="popular__item--detail pri">
+                                        <div class="popular__item--name">
+                                            <p>LUYỆN SIÊU TRÍ NHỚ TỪ VỰNG TIẾNG ANHY</p>
+                                        </div>
+                                        <div class="popular__item--price">
+                                            <p>180.000₫</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="popular__item incarousel">
+                                    <div class="popular__item--img">
+                                        <div class="popular__item--cover blue">
+                                            <div class="item--cover__title">
+                                                SACH GI DAY
+                                            </div>
+                                            <div class="item--cover__btn">
+                                                <button>Xem ngay</button>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/popular-5.png" alt="">
+                                    </div>
+                                    <div class="popular__item--detail blue">
+                                        <div class="popular__item--name">
+                                            <p>TIẾNG HÀN TỔNG HỢP DÀNH CHO NGƯỜI VIỆT NAM – SÁCH</p>
+                                        </div>
+                                        <div class="popular__item--price">
+                                            <p>70.000₫</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="popular__item incarousel">
+                                    <div class="popular__item--img">
+                                        <div class="popular__item--cover orange">
+                                            <div class="item--cover__title">
+                                                SACH GI DAY
+                                            </div>
+                                            <div class="item--cover__btn">
+                                                <button>Xem ngay</button>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/popular-6.png" alt="">
+                                    </div>
+                                    <div class="popular__item--detail orange">
+                                        <div class="popular__item--name">
+                                            <p>BỘ SÁCH LUYỆN THI IELTS MIKE 5 CUỐN</p>
+                                        </div>
+                                        <div class="popular__item--price">
+                                            <p>602.000₫</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="popular__item incarousel">
+                                    <div class="popular__item--img">
+                                        <div class="popular__item--cover green">
+                                            <div class="item--cover__title">
+                                                SACH GI DAY
+                                            </div>
+                                            <div class="item--cover__btn">
+                                                <button>Xem ngay</button>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/popular-7.jpg" alt="">
+                                    </div>
+                                    <div class="popular__item--detail green">
+                                        <div class="popular__item--name">
+                                            <p>GIÁO TRÌNH HÁN NGỮ 3 – TẬP 2 – QUYỂN THƯỢNG</p>
+                                        </div>
+                                        <div class="popular__item--price">
+                                            <p>95.000₫</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="popular__item incarousel">
+                                    <div class="popular__item--img">
+                                        <div class="popular__item--cover pri">
+                                            <div class="item--cover__title">
+                                                SACH GI DAY
+                                            </div>
+                                            <div class="item--cover__btn">
+                                                <button>Xem ngay</button>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/popular-8.jpg" alt="">
+                                    </div>
+                                    <div class="popular__item--detail pri">
+                                        <div class="popular__item--name">
+                                            <p>GIÁO TRÌNH HÁN NGỮ 2 – TẬP 1 – QUYỂN HẠ</p>
+                                        </div>
+                                        <div class="popular__item--price">
+                                            <p>115.000₫</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="popular--carousel__prev">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="popular--carousel__next">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="popular__action">
+                        <button>Xem thêm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="row introduce__content">
+                <div class="introduce__detail">
+                    <p>
+                        MCBOOKS kính chào quý độc giả!
+                        <br />
+                        <br />
+                        <br />
+                        Công ty Cổ phần sách MCBooks – Chuyên sách ngoại ngữ được thành lập và đi vào hoạt động kể từ
+                        ngày 25/08/2008, chuyên hoạt động trong lĩnh vực xuất bản và liên kết xuất bản, phát hành sách
+                        ngoại ngữ.
+                        <br />
+                        <br />
+                        <br />
+                        Sau 12 năm hình thành và phát triển, MCBooks đã trở thành thương hiệu Sách ngoại ngữ số 1 tại
+                        thị trường Việt Nam khi nắm bản quyền của nhiều đầu sách ngoại ngữ quan trọng,liên tiếp đứng đầu
+                        thị trường trong lựa chọn sách ngoại ngữ trên nhiều hệ thống phát hành lớn: Tiki.vn,
+                        Fahasha.com…
+                    </p>
+                </div>
+                <div class="introduce__video">
+                    <iframe src="https://www.youtube.com/embed/1gkBkqUfH7A" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="row comemt__content">
+                <img src="./assets/img/comment.png" alt="">
+            </div>
+        </div>
+        <div class="contact">
+            <div class="row contact__detail">
+                <ul class="contact__item phone">
+                    <li class="phone__item">
+                        Liên hệ mảng sách tiếng Anh - mcbooks.vn: 0986 567 724
+                    </li>
+                    <li class="phone__item">
+                        Liên hệ mảng sách tiếng Trung- kaixin.vn: 098 656 7724
+                    </li>
+                    <li class="phone__item">
+                        Liên hệ mảng sách tiếng Nhật- saiwai.vn: 098 621 2320
+                    </li>
+                    <li class="phone__item">
+                        Liên hệ mảng sách tiếng Hàn- changmi.vn: 098 600 5281
+                    </li>
+                    <li class="phone__item">
+                        Liên hệ mảng sách tham khảo- tkbooks.vn: 0986 750 378
+                    </li>
+                    <li class="phone__item">
+                        Liên hệ mảng sách doanh nhân- bizbooks.vn: 0243 789 2666
+                    </li>
+                </ul>
+                <div class="contact__item app">
+                    <div class="app__title">
+                        <span>Tải ứng dụng</span><span> McBooks App</span>
+                    </div>
+                    <div class="app__download">
+                        <a href="" class="app__link">
+                            <img src="./assets/img/app-appstore.png" alt="">
+                        </a>
+                        <a href="" class="app__link">
+                            <img src="./assets/img/app-google-play.png" alt="">
+                        </a>
+                    </div>
+                    <div class="app__check">
+                        <img src="./assets/img/app-check.png" alt="">
+                    </div>
+                </div>
+                <div class="contact__item map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.575166485351!2d105.7513623142774!3d21.049678092441233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454cec9977f6d%3A0x69c1c6320ea724f5!2zQ8O0bmcgdHkgY-G7lSBwaOG6p24gc8OhY2ggTUNCb29rcw!5e0!3m2!1svi!2s!4v1527671091897"
+                        frameborder=""></iframe>
+                </div>
+                <div class="contact__item social">
+                    <img src="./assets/img/social.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="footer__detail">
+            CÔNG TY CỔ PHẦN SÁCH MCBOOKS
+        </p>
+        <p class="footer__detail">
+            VP Hà Nội : Ô số e34 - Khu đấu giá 3ha - Phúc Diễn - Bắc Từ Liêm - Hà Nội
+        </p>
+        <p class="footer__detail">
+            Hotline : 0986567724
+        </p>
+        <p class="footer__detail">
+            VP Miền Nam: Số 45 đường 8, KP5, Hiệp Bình Chánh, Thủ Đức, TP Hồ Chí Minh
+        </p>
+        <p class="footer__detail">
+            Hotline: 02866609398
+        </p>
+        <p class="footer__detail">
+            Email: contact@mcbooks.vn
+        </p>
+        <h2 class="footer__detail--support">
+            HỖ TRỢ KHÁCH HÀNG
+        </h2>
+        <p class="footer__detail">
+            Hotline: 0986567724
+        </p>
+        <ul class="footer__action">
+            <li class="footer__action--item">
+                Hướng dẫn mua hàng
+            </li>
+            <li class="footer__action--item">
+                Giao nhận và thanh toán
+            </li>
+            <li class="footer__action--item">
+                Chính sách Đổi – Trả – Hoàn tiền
+            </li>
+            <li class="footer__action--item">
+                Đăng ký thành viên
+            </li>
+            <li class="footer__action--item">
+                Chính sách bảo mật
+            </li>
+        </ul>
+    </footer>
+    <a class="cart--fixed" href="#">
+        <i class="fas fa-shopping-cart"></i>
+    </a>
+    <div class="btn__to--top" href="#">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <div class="modal--nav">
+        <div class="modal--nav__inner">
+            <div class="modal--nav__close--btn">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal--nav__search">
+                <input type="text" placeholder="Bạn muốn tìm sách gì?">
+            </div>
+            <ul class="modal--nav__content">
+                <a href="#" class="modal--nav__item">
+                    TRANG CHỦ
+                </a>
+                <a href="#" class="modal--nav__item">
+                    SÁCH NGOẠI NGỮ
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a href="#" class="modal--nav__item">
+                    TIN TỨC
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a href="#" class="modal--nav__item">
+                    TÁC GIẢ
+                </a>
+                <a href="#" class="modal--nav__item">
+                    VỀ MCBOOKS
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a href="#" class="modal--nav__item">
+                    DANH SÁCH ĐẠI LÝ
+                </a>
+                <a href="#" class="modal--nav__item">
+                    PROFILE
+                </a>
+                <a href="#" class="modal--nav__item">
+                    ĐĂNG NHẬP
+                </a>
+            </ul>
+            <div class="modal--nav__footer">
+                <p>CHÀO MỪNG ĐẾN VỚI MCBOOKS - CHUYÊN SÁCH NGOẠI NGỮ !</p>
+            </div>
+            <div class="modal--nav__social">
+                <div class="modal--nav__social--item">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="modal--nav__social--item">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="modal--nav__social--item">
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var slider = $("#lightSlider").lightSlider();
+        $('.popular--carousel__prev').click(function () {
+            slider.goToPrevSlide();
+        });
+
+        $('.popular--carousel__next').click(function () {
+            slider.goToNextSlide();
+        });
+    });
+</script>
+<script src="./assets/js/scripts.js"></script>
+
+</html>
